@@ -1,12 +1,10 @@
 import streamlit as st
 
-# ตั้งค่าหน้าเว็บ
 st.set_page_config(page_title="ML & NN Models Information", layout="wide")
 
-# ตั้งชื่อหน้า
 st.title("Model Development")
 st.divider()
-# ใช้ st.radio สำหรับเลือกหัวข้อ
+
 option = st.radio(
     "🔍 **เลือกโมเดลที่ต้องการดูข้อมูล:**",
     ("🤖 Machine Learning (ML)", "🧠 Neural Network (NN)"),
@@ -308,7 +306,6 @@ st.sidebar.markdown(
     unsafe_allow_html=True
 )
 
-# Add GitHub link at the bottom of the sidebar
 st.sidebar.markdown(
     """
     <div class="sidebar-footer">
@@ -321,7 +318,6 @@ st.sidebar.markdown(
     unsafe_allow_html=True
 )
 
-# Reference section in the sidebar with improved styling
 st.sidebar.markdown(
     """
     <div class="sidebar-footer" style="margin-top: 20px; padding: 10px; background-color: rgba(0, 0, 0, 0.5); border-radius: 10px;">
