@@ -99,36 +99,3 @@ if data is not None:
     else:
         st.write("กรุณาเลือกคอลัมน์เพื่อใช้ในการทำนาย")
 
-# แสดง Sidebar
-st.sidebar.markdown(
-    """
-    <div style="text-align: center; margin-bottom: 10px;">
-        <a href="https://github.com/PichchakornK/ISProject.git" target="_blank" style="font-size: 16px; color: white; text-decoration: none;">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" height="20">
-            6404062663215 Pichchakorn Kongmai
-        </a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-st.sidebar.markdown(
-    """
-    <div style="margin-top: 20px; padding: 10px; background-color: rgba(0, 0, 0, 0.5); border-radius: 10px; text-align: center;">
-        <h3 style="color:white;">📚 References</h3>
-        <p style="color:white; font-size: 14px;">Dataset for ML: 
-            <a href="https://raw.githubusercontent.com/prasertcbs/tutorial/master/msleep.csv" target="_blank" style="color: #3498db; text-decoration: none;">ML Dataset Link</a>
-        </p>
-        <p style="color:white; font-size: 14px;">Dataset for NN: 
-            <a href="https://drive.google.com/drive/u/0/folders/1dZvL1gi5QLwOGrfdn9XEsi4EnXx535bD" target="_blank" style="color: #3498db; text-decoration: none;">NN Dataset Link</a>
-        </p>
-        <p style="color:white; font-size: 14px;">Machine Learning Tutorial: 
-            <a href="https://www.youtube.com/watch?v=T2yT5vt1NaQ&list=PLoTScYm9O0GH_3VrwwnQafwWQ6ibKnEtU&index=6" target="_blank" style="color: #3498db; text-decoration: none;">ML Video Link</a>
-        </p>
-        <p style="color:white; font-size: 14px;">Neural Network Tutorial: 
-            <a href="https://github.com/Coding-Lane/Image-Classification-CNN-Keras.git" target="_blank" style="color: #3498db; text-decoration: none;">NN GitHub Link</a>
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)

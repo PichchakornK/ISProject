@@ -37,3 +37,4 @@ if uploaded_image is not None:
         predictions = model.predict(img_array)
         prediction_class = "Dog" if predictions[0][0] < 0.5 else "Cat"
         st.write(f"🔹 ผลลัพธ์การทำนาย: {prediction_class}")
+
